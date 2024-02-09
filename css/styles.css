@@ -1,0 +1,218 @@
+html{
+	height: 100%;
+	font-family: 'Inconsolata', monospace;
+}
+
+body{
+	margin: 0;
+
+}
+
+.navigation li{
+	display: inline-block;
+	margin: 0 15px;
+	
+}
+
+h1, h2, h3,h4, h5{
+  font-family: 'Prata', serif;
+}
+
+nav{
+		position: fixed;
+		z-index: 1;
+		left: 0;
+		right: 0; 
+		font-family: 'Prata', serif;
+		font-size: 22px;
+}
+
+.navigation{
+	text-align: center;
+}
+
+h1{
+	font-size: 150px;
+	font-weight: normal;
+	margin: 0;
+
+}
+
+.h{
+	font-family: 'Pacifico', cursive;
+}
+
+h2{
+	font-size: 100px;
+}
+.works-img{
+	position: relative;
+	width:100%;
+}
+.works h4{
+	position: absolute;
+	z-index: 1;
+	top: -25px;
+}
+
+.extra-gutters{
+	padding: 0 60px;
+}
+
+.right-aligned{
+	text-align: right;
+}
+
+.works h4.right-aligned{
+	right: 0;
+}
+
+.left-col, .right-col{
+	text-align: center;
+	color: #fff;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.left-col{
+	background-color: #003170;
+	
+}
+.pro{
+	max-width: 50%;
+}
+.right-col{
+	background-color: #75e3dd ;
+}
+
+img{
+	max-width: 100%;
+}
+
+footer{
+	
+	min-height: 220px;
+	background: url('../img/socialmedia.svg') ;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: center;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+	background-color: #f4979c;
+}
+.social-icon{
+	height : 60px;
+	margin: 10px 20px;
+
+
+}
+.social-icon-container{
+	text-align: center;
+	
+
+}
+
+.scroll{
+	color: #2864b1;
+	text-align: center;
+}
+
+.works h2{
+	color: #41ccc4;
+}
+
+.myteam h2{
+	color: #003170;
+}
+
+.contact h2{
+	color: #f3747b;
+}
+h3{
+	font-size: 50px;
+
+}
+
+.works h3{
+	color: #16736e;
+}
+
+.myteam h3{
+	color: #306fbf ;
+	margin: 0 0 70px 0;
+	line-height: 100%;
+	width :100%;
+}
+
+h4{
+	font-size: 32px;
+	color: #16736e;
+	background-color: #75e3dd;
+	display: inline-block;
+	pad: 4px;
+	margin: 0;
+}
+
+.works a{
+	letter-spacing: 2px;
+	color: #16736e;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.navigation li a{
+	color: #20c4bb;
+	text-decoration: none;
+}
+
+.works{
+	color: #16736e;
+}
+
+p{
+	line-height: 145%;
+}
+
+.top-container{
+	width:500px;
+	margin: 0 auto;
+
+}
+
+
+.img-margine{
+	margin-bottom:65px;
+}
+
+
+.big-p{
+	font-size: 30px;
+	font-style: italic;
+	font-family: 'Pacifico', cursive;
+}
+
+.cen{
+	text-align: center;
+}
+
+.colr{
+	background-color: lightblue;
+}
+
+.l-p{
+	font-size: 50px;
+	font-family: 'Amarante', serif;
+	color: black;
+}
+
+.change-img{
+	border: 1px solid black;
+}
